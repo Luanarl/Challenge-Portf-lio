@@ -1,0 +1,51 @@
+:root {
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-fundo-menu: #FFFFFF;
+    --cor-de-fundo-itens: #EAF2FD;
+    --cor-do-link: #000000;
+    --cor-da-fonte: #464646;
+    --cor-do-botao: #247AE4;
+    --cor-do-btngit-hover: #d4e4fa;
+    --cor-do-btndemo-hover:#5595E9;
+    --espacamento-padrao: 16px;
+    --fonte-titulo: 2rem;
+    --fonte-texto: 1rem;
+    --fonte-texto-pequeno: 0.9rem;
+    --cor-primaria: #333;
+    --largura-maxima-conteudo: 100%;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: var(--cor-da-fonte);
+    text-decoration: none;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+a, ul, li {
+    color: var(--cor-da-fonte);
+    text-decoration: none;
+    list-style: none;
+}
